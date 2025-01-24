@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testScripts.UserManagementTab"/>
+      <class name="com.testScripts.DownloadReports"/>
+      <class name="com.testScripts.InValidLogin2"/>
+      <class name="com.testScripts.InValidLogin"/>
+      <class name="com.testScripts.ToClickManagement"/>
+ <!--     <class name="com.testScripts.RegCorpWithoutStandardCharges"/>
+      <class name="com.testScripts.AddMultipleUser"/>
+      <class name="com.testScripts.AddAllUserFromExcel"/>
+      <class name="com.testScripts.UrlVerification"/>
+      <class name="com.testScripts.ValidLogin"/>
+      <class name="com.testScripts.AddNewUser"/>
+      <class name="com.testScripts.RegCorpWithStandardCharges"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

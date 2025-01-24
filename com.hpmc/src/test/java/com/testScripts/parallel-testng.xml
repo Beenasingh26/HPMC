@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests">
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="com.testScripts.ValidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="UserManagementTab">
+    <classes>
+      <class name="com.testScripts.UserManagementTab"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="AddingNewUser">
+    <classes>
+      <class name="com.testScripts.AddNewUser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
