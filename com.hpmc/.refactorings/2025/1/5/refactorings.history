@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.hpmc/src/test/resources/TestData/commanData.properties&apos; to &apos;commonData.properties&apos;" description="Rename resource &apos;commanData.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/TestData/commanData.properties" name="commonData.properties" stamp="1737976141016" updateReferences="true"/>
+</session>

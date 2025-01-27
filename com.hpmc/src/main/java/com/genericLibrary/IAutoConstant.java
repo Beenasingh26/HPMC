@@ -2,7 +2,7 @@ package com.genericLibrary;
 
 public interface IAutoConstant {
 	//properties path
-	String PROP_FILE="./src/test/resources/TestData/commanData.properties";
+	String PROP_FILE="./src/test/resources/TestData/commonData.properties";
 	
 	
 	//excel path
